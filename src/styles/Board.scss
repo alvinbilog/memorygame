@@ -1,0 +1,65 @@
+.Board {
+  max-width: 860px;
+  margin: 40px auto;
+
+  h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .score-container {
+    height: 150px;
+    // border: solid green;
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: -25px;
+    color: white;
+
+    .score {
+      margin-bottom: 0px;
+      font-size: 80px;
+      font-weight: bold;
+    }
+    .score-text {
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: -5px;
+    }
+  }
+  button {
+    position: relative;
+    width: 120px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid white 2px;
+    border-radius: 5px;
+    background: none;
+    text-align: center;
+
+    font-size: 15px;
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  button:hover {
+    background: #2c7ab5;
+    color: #fff;
+  }
+
+  .card-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}

@@ -1,0 +1,79 @@
+.Board {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+.Board h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -20px;
+}
+
+.Board .info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Board .score-container {
+  height: 150px;
+  text-align: center;
+  margin-top: -150px;
+  margin-bottom: -25px;
+  color: white;
+}
+
+.Board .score-container .score {
+  margin-bottom: 0px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.Board .score-container .score-text {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+.Board button {
+  position: relative;
+  width: 120px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  border: solid white 2px;
+  border-radius: 5px;
+  background: none;
+  text-align: center;
+  font-size: 15px;
+  top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.Board button:hover {
+  background: #2c7ab5;
+  color: #fff;
+}
+
+.Board .card-grid {
+  margin-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+/*# sourceMappingURL=Board.css.map */
